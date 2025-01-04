@@ -19,7 +19,7 @@ from pyrogram.errors import (
 )
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from config import PLAYLIST_IMG_URL, PRIVATE_BOT_MODE, adminlist, MUST_JOIN
+from config import PLAYLIST_IMG_URL, PRIVATE_BOT_MODE, adminlist
 from AlexaMusic.misc import db
 from strings import get_string
 from AlexaMusic import YouTube, app
