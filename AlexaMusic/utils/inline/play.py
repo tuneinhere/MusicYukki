@@ -58,11 +58,11 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup {videoid}|{chat_id}",
             ),
-            InlineKeyboardButton(text="𝖲𝗎𝗉𝗉𝗈𝗋𝗍 💬", url=SUPPORT_GROUP),
+            InlineKeyboardButton(text="Support 💬", url=SUPPORT_GROUP),
         ],
         [
             InlineKeyboardButton(
-                text=f"𝖴𝗉𝖽𝖺𝗍𝖾𝗌 📢",
+                text=f"Store 📢",
                 url=SUPPORT_CHANNEL,
             )
         ],
@@ -84,14 +84,14 @@ def telegram_markup_timer(_, videoid, chat_id, played, dur):
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
-            InlineKeyboardButton(text="𝖮𝗐𝗇𝖾𝗋", url=f"https://t.me/Arabnihnge"),
+            InlineKeyboardButton(text="Owner", url=f"https://t.me/Arabnihnge"),
         ],
         [
             InlineKeyboardButton(
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
-            InlineKeyboardButton(text="𝖲𝗎𝗉𝗉𝗈𝗋𝗍 💬", url=SUPPORT_GROUP),
+            InlineKeyboardButton(text="Support 💬", url=SUPPORT_GROUP),
         ],
     ]
     return buttons
@@ -107,14 +107,14 @@ def stream_markup(_, videoid, chat_id):
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
-            InlineKeyboardButton(text="𝖮𝗐𝗇𝖾𝗋", url=f"https://t.me/Arabnihnge"),
+            InlineKeyboardButton(text="Owner", url=f"https://t.me/Arabnihnge"),
         ],
         [
             InlineKeyboardButton(
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
-            InlineKeyboardButton(text="𝖲𝗎𝗉𝗉𝗈𝗋𝗍 💬", url=SUPPORT_GROUP),
+            InlineKeyboardButton(text="Support 💬", url=SUPPORT_GROUP),
         ],
     ]
     return buttons
@@ -135,7 +135,7 @@ def telegram_markup(_, chat_id):
 
 ## By Anon
 close_keyboard = InlineKeyboardMarkup(
-    [[InlineKeyboardButton(text="𝖢𝗅𝗈𝗌𝖾", callback_data="close")]]
+    [[InlineKeyboardButton(text="x Close x", callback_data="close")]]
 )
 
 ## Search Query Inline
