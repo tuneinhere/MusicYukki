@@ -11,7 +11,7 @@ as you want or you can collabe if you have new ideas.
 
 
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from config import SUPPORT_GROUP, SUPPORT_CHANNEL
+from config import SUPPORT_GROUP, SUPPORT_CHANNEL, OWNER_USERNAME
 import random
 
 ## After Edits with Timer Bar
